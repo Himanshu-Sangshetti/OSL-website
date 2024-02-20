@@ -26,7 +26,7 @@ const ResetPassword = () => {
     }
 
     try {
-      const response = await axios.post(`https://osl-backend.onrender.com/api/v1/auth/reset-password/${token}`, {
+      const response = await axios.post(`https://main.d64lqh0j9ucn1.amplifyapp.com/api/v1/auth/reset-password/${token}`, {
         email,
         newPassword,
       });

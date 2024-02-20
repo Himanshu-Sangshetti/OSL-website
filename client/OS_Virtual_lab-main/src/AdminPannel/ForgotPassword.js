@@ -14,7 +14,7 @@ const ForgotPassword = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post('https://osl-backend.onrender.com/api/v1/auth/forgot-password', {
+      const response = await axios.post('https://main.d64lqh0j9ucn1.amplifyapp.com/api/v1/auth/forgot-password', {
         email,
       });
 

@@ -12,7 +12,7 @@ const PdfView = () => {
     const { filePath } = useParams();
     console.log("PARAMS is : ", filePath)
 
-    const updatedPath = "https://osl-backend.onrender.com/files/" + filePath;
+    const updatedPath = "https://main.d64lqh0j9ucn1.amplifyapp.com/files/" + filePath;
     console.log("updated path is : ", updatedPath)
 
     const [numPages, setNumPages] = useState(null);

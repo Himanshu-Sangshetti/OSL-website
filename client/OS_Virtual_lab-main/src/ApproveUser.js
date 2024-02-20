@@ -15,7 +15,7 @@ const ApproveUser = () => {
       return;
     }
 
-    axios.get(`https://osl-backend.onrender.com/api/v1/auth/approve/${token}`)
+    axios.get(`https://main.d64lqh0j9ucn1.amplifyapp.com/api/v1/auth/approve/${token}`)
       .then((response) => {
         if (response.data.success) {
           setApprovalStatus('User approved successfully.');

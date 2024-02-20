@@ -22,7 +22,7 @@ const Content = () => {
   async function fetchlinkdata(){
     setloading(true);
     try{
-      const newresult = await axios.get('https://osl-backend.onrender.com/api/addLinks/getAllLinks');
+      const newresult = await axios.get('https://main.d64lqh0j9ucn1.amplifyapp.com/api/addLinks/getAllLinks');
       console.log(newresult.data);
       setlinkdata(newresult.data.data);
     }

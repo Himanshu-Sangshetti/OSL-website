@@ -13,4 +13,4 @@ export const filterData = [
   },
   
 ];
-export const apiUrl = "https://osl-backend.onrender.com/api/assignment/getAllAssignments";
+export const apiUrl = "https://main.d64lqh0j9ucn1.amplifyapp.com/api/assignment/getAllAssignments";

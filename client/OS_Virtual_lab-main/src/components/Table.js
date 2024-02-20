@@ -13,7 +13,7 @@ const Table = (probs) => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`https://osl-backend.onrender.com/api/assignment/deleteAssignment/${id}`);
+      await axios.delete(`https://main.d64lqh0j9ucn1.amplifyapp.com/api/assignment/deleteAssignment/${id}`);
     } catch (error) {
       console.error('Error:', error);
     }
